@@ -1,0 +1,52 @@
+body {
+    display: grid;
+    place-items: center;
+    background: #e3e3e3;
+    font-family: "Roboto", sans-serif
+}
+
+.box {
+    background: #fff;
+    position: relative;
+    top: 2.5rem;
+    border: 2px solid gainsboro;
+    border-radius: 12px;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: 2rem;
+}
+
+.tabuada {
+    text-align: center;
+}
+
+.tabuada hr {
+ margin-bottom: -0.5rem;
+}
+
+input {
+    width: 20rem;
+    height: 3rem;
+    outline: 0;
+    box-sizing: border-box;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+select {
+  width: 3rem;
+  height: 3rem;
+  outline: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
